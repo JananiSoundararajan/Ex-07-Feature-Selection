@@ -22,7 +22,7 @@ Save the data to the file
 DEVELOPED BY: JANANI.S
 REGISTER NO>: 212222230049
 
-
+```
 #importing library
 import pandas as pd
 import numpy as np
@@ -118,7 +118,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 print ("MSE    :",mean_squared_error(y_test,target_predict))
 print ("R2     :",r2_score(y_test,target_predict))
 
-
+```
 ## OUTPUT:
 ### data.tail():
 ![ds71](https://github.com/SASIDEVIvenaram/Ex-07-Feature-Selection/assets/118707332/02f8f580-3780-40e1-b804-191fa125e0bf)
