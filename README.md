@@ -92,7 +92,7 @@ y = data["Survived"]
 mdlsel = SelectKBest(chi2, k=5)
 mdlsel.fit(X,y)
 ix = mdlsel.get_support()
-data2 = pd.DataFrame(mdlsel.transform(X), columns = X.columns.values[ix]) # en iyi leri aldi... 7 tane...
+data2 = pd.DataFrame(mdlsel.transform(X), columns = X.columns.values[ix]) 
 
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
